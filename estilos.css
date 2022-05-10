@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+body{
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+}
+
+header{
+    list-style: none;
+    display: flex;
+    height: 100px;
+    background-color: #ff7f99;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    height: 60px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a{
+    font-weight: 600;
+    margin-right: 70px;
+    padding: 15px;
+}
+
+
+nav a:hover{
+    background: #ffc9416f ;
+    border-radius: 36px;
+    
+
+}
+
+.imagen_grande img{
+    height: 500px;
+    float: left;
+ }
+
+h1{
+    color: #ff7f99;
+    font-size: 3cm;
+    margin: 0px;
+  
+}
+
+
+
+.menu2{
+    list-style: none;
+    display: flex;
+    height: 600px;
+    background: #FF7F99;
+    justify-content: space-around;
+
+    
+    
+  
+}
+
+
+
+.titulos{
+    display: flex;
+    flex-direction: column;
+}
+
+.boton_llamar{
+    background-color: #ffca41;
+    margin-bottom: 3cm;
+    align-items:center;
+    border-radius: 36px;
+    width: 3cm;
+    text-align: center;
+    padding: 15px;
+   
+   
+}
+.linkpersona{
+    padding: 0%;
+    margin: 0%;
+    width: 30%;
+}
+.persona{
+    list-style: none;
+    display: flex;
+  
+    flex-direction: column;
+    
+}
+
+
+
+.carol_nombre{
+    font-size: 0.6cm;
+    color:white;
+    list-style: none;
+    margin: 0%;
+    display:block;
+    flex-direction: unset;
+    text-align: center;
+}
+
+.carmen_nombre{
+    font-size: 0.6cm;
+    color:white;
+    list-style: none;
+    margin: 0%;
+    display: block;
+    flex-direction: unset;
+    text-align: center;
+
+}
+
+.shufen_nombre{
+    font-size: 0.6cm;
+    color:white;
+    list-style: none;
+    margin: 0%;
+    display: block;
+    flex-direction: unset;
+    margin-left: 1.5cm;
+}
+
+.shu_espe{
+    list-style: none;
+    text-align: center;
+}
+
+.carol_espe{
+    list-style: none;
+    text-align: center;
+}
+
+.carmen_espe{
+    list-style: none;
+    text-align: center;
+}
+
+.linkedin{
+    display: flex;
+}
+
+.linkedin img{
+    height: 50px;
+    align-items: center;
+    
+}
+
+.imagen_grandecarol img{
+    height: 500px;
+    float: left;
+ }
+
+ .titulosCarol{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+.logolinke{
+    display: inline;
+}
+
+.logolinke img{
+    height: 50px;
+    align-items: center;
+    margin: 2%;
+    
+}
+
+.boton_llamarCarol{
+    display: flex;
+    background-color: #ffca41;
+    margin-bottom: 3cm;
+    align-items:center;
+    border-radius: 36px;
+    width: 3cm;
+    text-align: center;
+    padding: 15px;
+   margin-left: 2%;
+   
+}
+
