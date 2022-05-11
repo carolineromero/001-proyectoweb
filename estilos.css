@@ -58,9 +58,9 @@ h1{
 .menu2{
     list-style: none;
     display: flex;
-    height: 600px;
+    height: 650px;
     background: #FF7F99;
-    justify-content: space-around;
+    justify-content: space-between;
 
     
     
@@ -89,11 +89,12 @@ h1{
     padding: 0%;
     margin: 0%;
     width: 30%;
+    justify-content: space-between;
 }
 .persona{
     list-style: none;
     display: flex;
-  
+    justify-content: space-between;
     flex-direction: column;
     
 }
@@ -128,7 +129,7 @@ h1{
     margin: 0%;
     display: block;
     flex-direction: unset;
-    margin-left: 1.5cm;
+   text-align: center;
 }
 
 .shu_espe{
@@ -148,6 +149,7 @@ h1{
 
 .linkedin{
     display: flex;
+    justify-content: center;
 }
 
 .linkedin img{
@@ -177,6 +179,7 @@ h1{
 
 .logolinke{
     display: inline;
+    justify-content: center;
 }
 
 .logolinke img{
@@ -187,7 +190,7 @@ h1{
 }
 
 .boton_llamarCarol{
-    display: flex;
+  
     background-color: #ffca41;
     margin-bottom: 3cm;
     align-items:center;
@@ -195,7 +198,6 @@ h1{
     width: 3cm;
     text-align: center;
     padding: 15px;
-   margin-left: 2%;
-   
+ 
 }
 
