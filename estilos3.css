@@ -1,0 +1,140 @@
+body{
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+}
+
+header{
+    list-style: none;
+    display: flex;
+    height: 100px;
+    background-color: #ff7f99;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 4cm;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    height: 60px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a{
+    font-weight: 600;
+    margin-right: 70px;
+    padding: 15px;
+}
+
+
+nav a:hover{
+    background: #ffc9416f ;
+    border-radius: 36px;
+    
+
+}
+
+.menu2{
+    list-style: none;
+    display: flex;
+    height: 650px;
+    background: #FF7F99;
+    justify-content: space-between;
+
+    
+    
+  
+}
+
+.persona{
+    list-style: none;
+    display: flex;
+    flex-direction: column; 
+    width: 30%;   
+    
+}
+
+.persona .linkpersona{       
+    padding: 0%;
+    margin: 0%;        
+}
+
+.persona .linkpersona img{
+    width: 100%;
+}
+
+
+
+.carol_nombre{
+    font-size: 0.6cm;
+    color:white;
+    list-style: none;
+    margin: 0%;
+    display:block;
+    flex-direction: unset;
+    text-align: center;
+}
+
+.carmen_nombre{
+    font-size: 0.6cm;
+    color:white;
+    list-style: none;
+    margin: 0%;
+    display: block;
+    flex-direction: unset;
+    text-align: center;
+
+}
+
+.shufen_nombre{
+    font-size: 0.6cm;
+    color:white;
+    list-style: none;
+    margin: 0%;
+    display: block;
+    flex-direction: unset;
+   text-align: center;
+}
+
+.shu_espe{
+    list-style: none;
+    text-align: center;
+}
+
+.carol_espe{
+    list-style: none;
+    text-align: center;
+}
+
+.carmen_espe{
+    list-style: none;
+    text-align: center;
+}
+
+.linkedin{
+    display: flex;
+    justify-content: center;    
+}
+
+.linkedin img{
+    height: 50px;
+    align-items: center;
+    
+}
+
+.imagen_grandecarol img{
+    height: 500px;
+    float: left;
+ }
+
+ .titulosCarol{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,12 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documento</title>
-</head>
-<body>
-    
-</body>
-</html>
+<html>
+    <head>
+        <meta charset="UTF-8"> 
+        <title>Coder 3</title>
+        <link rel="stylesheet" href="estilos2.css"
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="./img/logo_coder3.png">
+            </div>
+                   <nav> 
+                <a href="index.html">Somos</a>
+                <a href="equipo.html">Equipo</a>
+                <a href="contacto.html">Contáctenos</a>
+            </nav>
+        </header>
+<div class="contenedor">
+        <form action="">
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" id = 'nombre'>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" id = 'email'>
+            </div>
+            <div>
+                <label for="mensaje">Mensaje</label>
+                <input type="text" id = 'mensaje'>
+            </div>
+            <input type="submit" onclick = 'return enviarformulario();' value='Enviar'>
+ 
+
+        </form>
+</div>
+
+        <div id ='error'></div>
+        <script src = 'app.js'></script>

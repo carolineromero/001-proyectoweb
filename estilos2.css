@@ -1,0 +1,59 @@
+body{
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+}
+
+header{
+    list-style: none;
+    display: flex;
+    height: 100px;
+    background-color: #ff7f99;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 4cm;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    height: 60px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a{
+    font-weight: 600;
+    margin-right: 70px;
+    padding: 15px;
+}
+
+
+nav a:hover{
+    background: #ffc9416f ;
+    border-radius: 36px;
+    
+
+}
+
+label{
+    display: block;
+    float: left;
+    width: 70px;
+   
+}
+.contenedor{
+    background-color: #ff7f99;
+    height: 20vh;
+    margin: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
