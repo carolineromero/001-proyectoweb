@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2? family= Jost:ital,wght@0,100;0,700;0,900;1,400 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "jost", sans-serif;
+}
+
+header{
+    background-color: #FF7F99;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo.brand{
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0px 20px;
+}
+
+.logo-brand span{
+    color: #FFF27E;
+}
+
+.navbar-main{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+    
+}
+.navbar-main a{
+    text-decoration: none;
+    margin: 10px;
+    width: fit-content;
+    color: aliceblue;
+}
+
+.btn-filled{
+    background-color: rgba(255, 219, 128, 0.24);
+    border-radius: 30px;
+    border: 1px solid #FFDB80;
+    padding: 10px 20px;
+}
+.main-hero{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 30px 20px;
+}
+
+.hero-img{
+    width: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+}
+
+.hero-text{
+
+}
+.section-team{
+    width: 100%;
+    background-color: #FF7F99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
