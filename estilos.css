@@ -50,11 +50,7 @@ h1{
     color: #ff7f99;
     font-size: 3cm;
     padding: 2cm;
-  
 }
-
-
-
 
 .menu2{
     list-style: none;
@@ -62,12 +58,7 @@ h1{
     height: 650px;
     background: #FF7F99;
     justify-content: space-between;
-
-    
-    
-  
 }
-
 
 
 .titulos{
@@ -84,7 +75,6 @@ h1{
     text-align: center;
     padding: 15px;
    
-   
 }
 
 .persona{
@@ -92,7 +82,6 @@ h1{
     display: flex;
     flex-direction: column; 
     width: 30%;   
-    
 }
 
 .persona .linkpersona{       
@@ -103,8 +92,6 @@ h1{
 .persona .linkpersona img{
     width: 100%;
 }
-
-
 
 .carol_nombre{
     font-size: 0.6cm;
@@ -172,14 +159,6 @@ h1{
     display: flex;
     flex-direction: column;
 }
-
-
-
-
-
-
-
-
 
 
 .logolinke{
